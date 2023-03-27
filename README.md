@@ -7,6 +7,16 @@ This folder contains the following files:
 - Display data in tables.sql with the code that shows the data in the tables created in SQL
 - Diagram_crowdfunding.png, diagram of the schema of the tables created
 
+A subfolder called Resources contains the source files:
+- crowfunding.xlsx
+- contacts.xlsx 
+
+and the outputs: 
+- contacts.csv 
+- campaign.csv
+- categories.csv
+- subcategories.csv
+
 ----
 ----
 ### Objective
@@ -26,4 +36,5 @@ For the ETL mini project, we were asked to work in groups of two to practice bui
 
 5. At the end all the steps of the process were completed and the databae with its tables succesfully created. 
 
-<img src="Diagram_crowfunding.png" alt="Diagram"  height="300px" width="400px">
+![Diagram](Diagram_crowfunding.png)
+
