@@ -17,10 +17,12 @@ and the outputs:
 - categories.csv
 - subcategories.csv
 
+A subfolder called Images containing the squema and the results when we imported the data into the Postgres database. 
+
 ----
 ----
 ### Objective
-For the ETL mini project, we were asked to work in groups of two to practice building an ETL pipeline using Python, Pandas, and either Python dictionary methods or regular expressions to extract and transform the data. After transforming the data, wew had to create four CSV files and use the CSV file data to create an ERD and a table schema. Finally, we needed to upload the CSV file data into a Postgres database.
+For the ETL mini project, we were asked to work in groups of two to practice building an ETL pipeline and different methods to extract and transform the data. After transforming the data, we had to create four CSV files and use these to create an ERD and a table schema. Finally, we needed to upload the CSV files data into a Postgres database.
 
 ### Development
  
@@ -30,11 +32,11 @@ For the ETL mini project, we were asked to work in groups of two to practice bui
 
 3. Lastly we worked with the file contacts.xlsx where we split the name and last names of the contacts, reorder columns and check the datatypes. With these changes done we created the contacts.csv file
 
-4. Once we had the four csv files we created a diagrama for a new database (showed below) that we called Crowdfunding. We alsco created the sql file defining the schema, created the tables, imported the data to these and verified our uploads.
+4. Once we had the four csv files we created a diagram (showed below) for a new database called Crowdfunding_df. We also created the sql file defining the schema, created the tables, imported the data to these and verified our uploads (these can be found inside the images folder).
 
-![Database Creation](Database_and_tables.png)
+![Database Creation](Images/Database_and_tables.png)
 
-5. At the end all the steps of the process were completed and the databae with its tables succesfully created. 
+5. At the end all the steps of the process were completed and the database with its tables succesfully created. 
 
-![Diagram](Diagram_crowfunding.png)
+![Diagram](Images/Diagram_crowfunding.png)
 

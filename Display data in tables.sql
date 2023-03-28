@@ -10,5 +10,3 @@ FROM subcategory;
 SELECT *
 FROM campaign;
 
-SELECT *
-FROM campaign;

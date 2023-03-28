@@ -11,9 +11,9 @@ DROP TABLE IF EXISTS campaign CASCADE;*/
 
 CREATE TABLE "contacts" (
     "contact_id" INT   NOT NULL,
-    "email" VARCHAR(80)   NOT NULL,
     "first_name" VARCHAR(20)   NOT NULL,
     "last_name" VARCHAR(20)   NOT NULL,
+	"email" VARCHAR(80)   NOT NULL,
     CONSTRAINT "pk_contacts" PRIMARY KEY (
         "contact_id"
      )
